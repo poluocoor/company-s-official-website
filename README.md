@@ -1,24 +1,12 @@
-# company-s-official-website
+# Jeema
 
-## Project setup
-```
-npm install
-```
+#### 介绍
+河南捷茂电子科技公司官网
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 软件架构
+VUE3
+ELEMENTPLUS
+#### 安装教程
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1.  NPM INSTALL
+2.  NPM RUN serve

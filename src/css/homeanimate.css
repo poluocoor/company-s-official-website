@@ -1,0 +1,210 @@
+.animated-div {
+  animation: toright1 .5s linear;
+}
+.animated-a{
+  animation: toup1 .5s linear;
+  display: flex;
+}
+.Mmain {
+    height: 100%;
+    width: 1400px;
+  }
+.Ftxt{
+  animation: toright1 0.8s linear;
+}
+.F-2{
+  animation: f-2 2s linear;
+}
+.F-3{
+  animation: f-2 2.5s linear;
+}
+/* .FLbottom{
+  animation: f-3 2s linear;
+} */
+.FLmain{
+  animation: f-4 1.8s linear;
+}
+.FRmain{
+  animation: f-4 1.8s linear;
+}
+.S-2{
+    animation: s-1 1.5s linear;
+    height: 78px;
+    width: 100%;
+    margin-top: 72px;
+    text-align: center;
+}
+.JJL{
+  animation: jjl 0.8s linear;
+}
+.JJR{
+  animation: jjr 0.8s linear;
+}
+.JJRT{
+  animation: f-2 1s linear;
+}
+.JJRB{
+  animation: f-2 1s linear;
+}
+.Mtxt{
+  animation: mtxt 1s linear;
+}
+.MtxtB{
+  animation: mtxtb 1s linear;
+}
+.NSR{
+  animation: nsr 1s linear;
+}
+.imgb1{
+  animation: f-2 1s linear;
+}
+.imgb2{
+  animation: f-2 1.5s linear;
+}
+.imgb3{
+  animation: f-2 2s linear;
+}
+@keyframes nsr {
+  0% {
+      margin-left: 100px;
+      opacity: 0;
+  }  
+  100% {
+      margin-left: 43px;
+      opacity: 1;
+  }
+}
+@keyframes mtxt {
+  0% {
+    margin-top: 20px;
+
+      opacity: .2;
+  }  
+  100% {
+    margin-top: 72px;
+
+      opacity: 1;
+  }
+}
+@keyframes mtxtb {
+  0% {
+    margin-top: 20px;
+
+      opacity: .2;
+  }  
+  100% {
+    margin-top: 41px;
+
+      opacity: 1;
+  }
+}
+@keyframes toright1 {
+  0% {
+      margin-left: -50px;
+      opacity: .2;
+  }  
+  100% {
+      margin-left: 100px;
+      opacity: 1;
+  }
+}
+@keyframes toright {
+    0% {
+        left: 16%;
+        opacity: .2;
+    }  
+    100% {
+        left: 36%;
+        opacity: 1;
+    }
+  }
+  @keyframes f-2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  @keyframes f-3 {
+    0% {
+  margin-top: 125px;
+        
+        opacity: 0;
+    }
+    100% {
+  margin-top: 84px;
+        opacity: 1;
+    }
+  }
+  @keyframes f-4 {
+    0% {
+  margin-top: 45px;
+        opacity: 0;
+    }
+    100% {
+   margin-top: 0px;
+        opacity: 1;
+    }
+  }
+  @keyframes toleft {
+    0% {
+      left: 80%;
+      opacity: .2;
+  }  
+  100% {
+    left: 55%;
+      opacity: 1;
+  }
+  }
+  @keyframes toup {
+    0% {
+      top: 82%;
+      opacity: .2;
+  }  
+  100% {
+    top: 62%;
+      opacity: 1;
+  }
+  }
+  @keyframes toup1 {
+    0% {
+      top: 82%;
+      opacity: .2;
+  }  
+  100% {
+    top: 62%;
+      opacity: 1;
+  }
+  }
+  @keyframes s-1 {
+    0% {
+      margin-top: 20px;
+        opacity: 0;
+    }  
+    100% {
+    margin-top: 72px;
+
+        opacity: 1;
+    }
+  }
+  @keyframes jjl {
+    0% {
+        left: -50px;
+        opacity: 0;
+    }  
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+  }
+  @keyframes jjr {
+    0% {
+        left: 50px;
+        opacity: 0;
+    }  
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+  }
